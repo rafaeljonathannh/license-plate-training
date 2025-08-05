@@ -1,0 +1,12 @@
+names:
+- License_Plate
+nc: 1
+roboflow:
+  license: MIT
+  project: vehicle-and-license-plate
+  url: https://universe.roboflow.com/plat-kendaraan/vehicle-and-license-plate/dataset/1
+  version: 1
+  workspace: plat-kendaraan
+test: test/images
+train: train/images
+val: valid/images
