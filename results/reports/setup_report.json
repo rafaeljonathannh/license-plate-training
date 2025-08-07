@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-08-07 11:03:09",
+  "python_version": "3.10.12",
+  "pytorch_version": "2.8.0+cu128",
+  "ultralytics_version": "8.3.175",
+  "cuda_available": true,
+  "gpu_count": 1,
+  "device": "GPU"
+}
