@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-08-07T15:11:27.049245",
+  "image_name": "01_images.jpeg",
+  "image_path": "test_images/01_images.jpeg",
+  "success": true,
+  "processing_time_ms": 18593.96,
+  "detections": [
+    {
+      "detection_index": 0,
+      "license_plate_number": "IN 1141 P",
+      "raw_ocr_text": "IN 1141 P",
+      "detection_confidence": 0.905,
+      "ocr_confidence": 0.5,
+      "bbox": [
+        98.99,
+        96.58,
+        198.6,
+        128.76
+      ],
+      "is_valid_format": true,
+      "validation_message": "Valid Indonesian license plate format",
+      "ocr_processing_time_ms": 15253.68
+    }
+  ],
+  "total_detections": 1,
+  "annotated_image_path": "results/production_test/annotated_images/annotated_20250807_151145_01_images.jpg",
+  "error": null
+}
