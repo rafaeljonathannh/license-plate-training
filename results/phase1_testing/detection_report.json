@@ -1,0 +1,179 @@
+{
+  "performance_metrics": {
+    "timestamp": "2025-08-07T14:23:29.505759",
+    "total_test_images": 9,
+    "images_with_detections": 3,
+    "detection_rate_percent": 33.33,
+    "total_detections": 3,
+    "high_confidence_detections": 3,
+    "average_processing_time_ms": 298.89,
+    "confidence_scores": {
+      "average": 0.909,
+      "maximum": 0.917,
+      "minimum": 0.905,
+      "count": 3
+    },
+    "cropped_regions_count": 3
+  },
+  "detection_results": [
+    {
+      "image_path": "..\\license-plate\\media\\uploaded_images\\images.jpeg",
+      "image_name": "images.jpeg",
+      "sample_copy": "results/phase1_testing/sample_images/01_images.jpeg",
+      "detections": [
+        {
+          "bbox": [
+            98.99263000488281,
+            96.5811996459961,
+            198.60427856445312,
+            128.75762939453125
+          ],
+          "confidence": 0.9047886729240417,
+          "detection_id": 0,
+          "cropped_path": "results/phase1_testing/cropped_plates/crop_00_images_det0.jpg",
+          "crop_size": [
+            42,
+            110
+          ]
+        }
+      ],
+      "num_detections": 1,
+      "processing_time_ms": 2313.624620437622,
+      "image_shape": [
+        169,
+        298
+      ],
+      "annotated_path": "results/phase1_testing/annotated_results/annotated_images.jpg"
+    },
+    {
+      "image_path": "..\\license-plate\\media\\uploaded_images\\122_92UViAn.E_3206_PAO-06-22.jpeg",
+      "image_name": "122_92UViAn.E_3206_PAO-06-22.jpeg",
+      "sample_copy": "results/phase1_testing/sample_images/02_122_92UViAn.E_3206_PAO-06-22.jpeg",
+      "detections": [],
+      "num_detections": 0,
+      "processing_time_ms": 47.6222038269043,
+      "image_shape": [
+        224,
+        626
+      ]
+    },
+    {
+      "image_path": "..\\license-plate\\media\\uploaded_images\\122_4Z5HcNE.E_3206_PAO-06-22.jpeg",
+      "image_name": "122_4Z5HcNE.E_3206_PAO-06-22.jpeg",
+      "sample_copy": "results/phase1_testing/sample_images/03_122_4Z5HcNE.E_3206_PAO-06-22.jpeg",
+      "detections": [],
+      "num_detections": 0,
+      "processing_time_ms": 40.331125259399414,
+      "image_shape": [
+        224,
+        626
+      ]
+    },
+    {
+      "image_path": "..\\license-plate\\media\\uploaded_images\\122_A5aGyyw.E_3206_PAO-06-22.jpeg",
+      "image_name": "122_A5aGyyw.E_3206_PAO-06-22.jpeg",
+      "sample_copy": "results/phase1_testing/sample_images/04_122_A5aGyyw.E_3206_PAO-06-22.jpeg",
+      "detections": [],
+      "num_detections": 0,
+      "processing_time_ms": 38.84124755859375,
+      "image_shape": [
+        224,
+        626
+      ]
+    },
+    {
+      "image_path": "..\\license-plate\\media\\uploaded_images\\122_UDh1ZmH.E_3206_PAO-06-22.jpeg",
+      "image_name": "122_UDh1ZmH.E_3206_PAO-06-22.jpeg",
+      "sample_copy": "results/phase1_testing/sample_images/05_122_UDh1ZmH.E_3206_PAO-06-22.jpeg",
+      "detections": [],
+      "num_detections": 0,
+      "processing_time_ms": 36.05008125305176,
+      "image_shape": [
+        224,
+        626
+      ]
+    },
+    {
+      "image_path": "..\\license-plate\\media\\uploaded_images\\122.E_3206_PAO-06-22.jpeg",
+      "image_name": "122.E_3206_PAO-06-22.jpeg",
+      "sample_copy": "results/phase1_testing/sample_images/06_122.E_3206_PAO-06-22.jpeg",
+      "detections": [],
+      "num_detections": 0,
+      "processing_time_ms": 36.89765930175781,
+      "image_shape": [
+        224,
+        626
+      ]
+    },
+    {
+      "image_path": "..\\license-plate\\media\\uploaded_images\\calya-77-_jpg.rf.79c8f8f3de66f6e26a3bdbb4705002b8.jpg",
+      "image_name": "calya-77-_jpg.rf.79c8f8f3de66f6e26a3bdbb4705002b8.jpg",
+      "sample_copy": "results/phase1_testing/sample_images/07_calya-77-_jpg.rf.79c8f8f3de66f6e26a3bdbb4705002b8.jpg",
+      "detections": [
+        {
+          "bbox": [
+            335.7568359375,
+            435.1811828613281,
+            613.613525390625,
+            530.5677490234375
+          ],
+          "confidence": 0.9167981743812561,
+          "detection_id": 0,
+          "cropped_path": "results/phase1_testing/cropped_plates/crop_01_calya-77-_jpg.rf.79c8f8f3de66f6e26a3bdbb4705002b8_det0.jpg",
+          "crop_size": [
+            105,
+            288
+          ]
+        }
+      ],
+      "num_detections": 1,
+      "processing_time_ms": 80.46388626098633,
+      "image_shape": [
+        720,
+        960
+      ],
+      "annotated_path": "results/phase1_testing/annotated_results/annotated_calya-77-_jpg.rf.79c8f8f3de66f6e26a3bdbb4705002b8.jpg"
+    },
+    {
+      "image_path": "..\\license-plate\\media\\uploaded_images\\122_Vwe8Cgw.E_3206_PAO-06-22.jpeg",
+      "image_name": "122_Vwe8Cgw.E_3206_PAO-06-22.jpeg",
+      "sample_copy": "results/phase1_testing/sample_images/08_122_Vwe8Cgw.E_3206_PAO-06-22.jpeg",
+      "detections": [],
+      "num_detections": 0,
+      "processing_time_ms": 46.22340202331543,
+      "image_shape": [
+        224,
+        626
+      ]
+    },
+    {
+      "image_path": "..\\license-plate\\media\\uploaded_images\\images_OMNbCFm.jpeg",
+      "image_name": "images_OMNbCFm.jpeg",
+      "sample_copy": "results/phase1_testing/sample_images/09_images_OMNbCFm.jpeg",
+      "detections": [
+        {
+          "bbox": [
+            98.99263000488281,
+            96.5811996459961,
+            198.60427856445312,
+            128.75762939453125
+          ],
+          "confidence": 0.9047886729240417,
+          "detection_id": 0,
+          "cropped_path": "results/phase1_testing/cropped_plates/crop_02_images_OMNbCFm_det0.jpg",
+          "crop_size": [
+            42,
+            110
+          ]
+        }
+      ],
+      "num_detections": 1,
+      "processing_time_ms": 49.93700981140137,
+      "image_shape": [
+        169,
+        298
+      ],
+      "annotated_path": "results/phase1_testing/annotated_results/annotated_images_OMNbCFm.jpg"
+    }
+  ]
+}

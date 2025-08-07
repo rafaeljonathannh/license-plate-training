@@ -1,0 +1,231 @@
+{
+  "performance_report": {
+    "timestamp": "2025-08-07T14:47:25.328689",
+    "ocr_testing": {
+      "total_cropped_images": 3,
+      "successful_ocr": 2,
+      "ocr_success_rate_percent": 66.67,
+      "average_ocr_time_ms": 5628.8,
+      "extracted_texts": [
+        "B 1234 WLG",
+        "B 1234 WLG"
+      ]
+    },
+    "integration_testing": {
+      "total_test_images": 5,
+      "successful_integrations": 2,
+      "integration_success_rate_percent": 40.0,
+      "average_total_time_ms": 2506.02,
+      "valid_license_plates_detected": 1,
+      "detected_plates": [
+        "B 1234 WLG"
+      ]
+    },
+    "performance_targets": {
+      "ocr_success_rate": {
+        "target": 70,
+        "actual": 66.66666666666666,
+        "pass": false
+      },
+      "total_processing_time": {
+        "target": 1000,
+        "actual": 2506.016043243408,
+        "pass": false
+      },
+      "valid_plates": {
+        "target": 2,
+        "actual": 1,
+        "pass": false
+      }
+    }
+  },
+  "ocr_test_results": [
+    {
+      "image_name": "crop_00_images_det0.jpg",
+      "image_path": "results\\phase1_testing\\cropped_plates\\crop_00_images_det0.jpg",
+      "processing_time_ms": 5807.53,
+      "texts_detected": [
+        "B",
+        "1234WLG",
+        "12.22"
+      ],
+      "confidences": [
+        0.9942641854286194,
+        0.9974232912063599,
+        0.9156874418258667
+      ],
+      "num_texts": 3,
+      "raw_result": "success",
+      "processed_texts": [
+        {
+          "raw_text": "B",
+          "cleaned_text": "B",
+          "is_valid_format": false,
+          "validation_message": "Invalid format: B"
+        },
+        {
+          "raw_text": "1234WLG",
+          "cleaned_text": "1234WLG",
+          "is_valid_format": false,
+          "validation_message": "Invalid format: 1234WLG"
+        },
+        {
+          "raw_text": "12.22",
+          "cleaned_text": "1222",
+          "is_valid_format": false,
+          "validation_message": "Invalid format: 1222"
+        }
+      ],
+      "best_text": "B 1234 WLG"
+    },
+    {
+      "image_name": "crop_01_calya-77-_jpg.rf.79c8f8f3de66f6e26a3bdbb4705002b8_det0.jpg",
+      "image_path": "results\\phase1_testing\\cropped_plates\\crop_01_calya-77-_jpg.rf.79c8f8f3de66f6e26a3bdbb4705002b8_det0.jpg",
+      "processing_time_ms": 5936.29,
+      "texts_detected": [
+        "2313",
+        "SYV",
+        "02.24"
+      ],
+      "confidences": [
+        0.9984379410743713,
+        0.9685940742492676,
+        0.8955017924308777
+      ],
+      "num_texts": 3,
+      "raw_result": "success",
+      "processed_texts": [
+        {
+          "raw_text": "2313",
+          "cleaned_text": "2313",
+          "is_valid_format": false,
+          "validation_message": "Invalid format: 2313"
+        },
+        {
+          "raw_text": "SYV",
+          "cleaned_text": "SYV",
+          "is_valid_format": false,
+          "validation_message": "Invalid format: SYV"
+        },
+        {
+          "raw_text": "02.24",
+          "cleaned_text": "0224",
+          "is_valid_format": false,
+          "validation_message": "Invalid format: 0224"
+        }
+      ],
+      "best_text": ""
+    },
+    {
+      "image_name": "crop_02_images_OMNbCFm_det0.jpg",
+      "image_path": "results\\phase1_testing\\cropped_plates\\crop_02_images_OMNbCFm_det0.jpg",
+      "processing_time_ms": 5142.57,
+      "texts_detected": [
+        "B",
+        "1234WLG",
+        "12.22"
+      ],
+      "confidences": [
+        0.9942641854286194,
+        0.9974232912063599,
+        0.9156874418258667
+      ],
+      "num_texts": 3,
+      "raw_result": "success",
+      "processed_texts": [
+        {
+          "raw_text": "B",
+          "cleaned_text": "B",
+          "is_valid_format": false,
+          "validation_message": "Invalid format: B"
+        },
+        {
+          "raw_text": "1234WLG",
+          "cleaned_text": "1234WLG",
+          "is_valid_format": false,
+          "validation_message": "Invalid format: 1234WLG"
+        },
+        {
+          "raw_text": "12.22",
+          "cleaned_text": "1222",
+          "is_valid_format": false,
+          "validation_message": "Invalid format: 1222"
+        }
+      ],
+      "best_text": "B 1234 WLG"
+    }
+  ],
+  "integration_test_results": [
+    {
+      "image_path": "results\\phase1_testing\\sample_images\\07_calya-77-_jpg.rf.79c8f8f3de66f6e26a3bdbb4705002b8.jpg",
+      "success": true,
+      "detections": [
+        {
+          "detection_index": 0,
+          "bbox": [
+            335.7568359375,
+            435.1811828613281,
+            613.613525390625,
+            530.5677490234375
+          ],
+          "detection_confidence": 0.9167981743812561,
+          "license_plate_number": "INVALID_FORMAT",
+          "ocr_confidence": 0.9984180331230164,
+          "is_valid_format": false,
+          "validation_message": "Invalid format: SYV 2313",
+          "detection_time_ms": 1650.5625247955322,
+          "ocr_time_ms": 5467.399835586548
+        }
+      ],
+      "total_processing_time_ms": 7123.26,
+      "error": null,
+      "total_detections": 1
+    },
+    {
+      "image_path": "results\\phase1_testing\\sample_images\\01_images.jpeg",
+      "success": true,
+      "detections": [
+        {
+          "detection_index": 0,
+          "bbox": [
+            98.99263763427734,
+            96.5811996459961,
+            198.60427856445312,
+            128.75762939453125
+          ],
+          "detection_confidence": 0.9047883749008179,
+          "license_plate_number": "B 1234 WLG",
+          "ocr_confidence": 0.9983109831809998,
+          "is_valid_format": true,
+          "validation_message": "Valid Indonesian license plate format",
+          "detection_time_ms": 110.49365997314453,
+          "ocr_time_ms": 5085.680723190308
+        }
+      ],
+      "total_processing_time_ms": 5197.04,
+      "error": null,
+      "total_detections": 1
+    },
+    {
+      "image_path": "results\\phase1_testing\\sample_images\\02_122_92UViAn.E_3206_PAO-06-22.jpeg",
+      "success": false,
+      "detections": [],
+      "total_processing_time_ms": 97.23758697509766,
+      "error": "No license plates detected"
+    },
+    {
+      "image_path": "results\\phase1_testing\\sample_images\\03_122_4Z5HcNE.E_3206_PAO-06-22.jpeg",
+      "success": false,
+      "detections": [],
+      "total_processing_time_ms": 48.538923263549805,
+      "error": "No license plates detected"
+    },
+    {
+      "image_path": "results\\phase1_testing\\sample_images\\04_122_A5aGyyw.E_3206_PAO-06-22.jpeg",
+      "success": false,
+      "detections": [],
+      "total_processing_time_ms": 64.00370597839355,
+      "error": "No license plates detected"
+    }
+  ]
+}
