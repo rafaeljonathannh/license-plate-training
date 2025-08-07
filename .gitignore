@@ -207,3 +207,18 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# License Plate Training - Dataset and Model Files
+# Dataset folder - ignore contents but keep structure
+dataset/plat-kendaraan/
+!dataset/.gitkeep
+
+# Model outputs and experiments
+models/experiments/
+models/checkpoints/
+!models/final/
+
+# Training results
+results/metrics/
+results/plots/
+!results/reports/
