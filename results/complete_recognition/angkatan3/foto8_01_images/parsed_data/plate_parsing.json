@@ -1,0 +1,38 @@
+{
+  "plates": [
+    {
+      "detection_id": 0,
+      "raw_ocr_text": "B 1234 WLG",
+      "ocr_confidence": 98.4,
+      "parsed_plate": {
+        "full_plate_number": "B 1234 WLG",
+        "area_code": "B",
+        "area_name": "Jakarta",
+        "area_region": "DKI Jakarta",
+        "number": "1234",
+        "series": "WLG",
+        "registration_date": null
+      },
+      "validation": {
+        "format_valid": true,
+        "area_code_valid": true,
+        "number_valid": true,
+        "series_valid": true,
+        "date_valid": true,
+        "validation_message": "Valid Indonesian license plate format"
+      },
+      "bbox": {
+        "x1": 98.0,
+        "y1": 96.0,
+        "x2": 198.0,
+        "y2": 128.0
+      },
+      "yolo_confidence": 0.9047886729240417
+    }
+  ],
+  "processing_metadata": {
+    "yolo_model": "models/final/best_model.pt",
+    "ocr_engine": "EasyOCR + brightness_contrast",
+    "processing_time_ms": 123.0
+  }
+}

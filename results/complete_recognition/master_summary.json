@@ -1,0 +1,23 @@
+{
+  "system_info": {
+    "last_updated": "2025-08-11T14:45:41.563270",
+    "total_angkatan_completed": 1,
+    "latest_angkatan": "angkatan2"
+  },
+  "cumulative_statistics": {
+    "total_images_processed": 3,
+    "total_plates_found": 3,
+    "cumulative_success_rate": 100.0,
+    "all_area_distribution": {
+      "Jakarta (B)": 3
+    }
+  },
+  "angkatan_history": [
+    {
+      "angkatan": 2,
+      "date": "2025-08-11T14:45:41.563275",
+      "images": 3,
+      "plates": 3
+    }
+  ]
+}

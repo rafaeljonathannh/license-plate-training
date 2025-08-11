@@ -1,0 +1,20 @@
+{
+  "angkatan_info": {
+    "angkatan_number": 2,
+    "timestamp": "2025-08-11T14:45:41.562960",
+    "total_fotos_processed": 3,
+    "successful_recognitions": 3,
+    "success_rate_percentage": 100.0,
+    "total_plates_found": 3
+  },
+  "angkatan_statistics": {
+    "area_distribution": {
+      "Jakarta (B)": 3
+    },
+    "registration_years": {
+      "2025": 3
+    },
+    "plates_with_dates": 3,
+    "plates_without_dates": 0
+  }
+}
