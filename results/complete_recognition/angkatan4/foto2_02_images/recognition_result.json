@@ -1,0 +1,85 @@
+{
+  "angkatan_info": {
+    "angkatan_number": 4,
+    "foto_number": 2,
+    "angkatan_session": "angkatan4",
+    "foto_folder": "foto2_02_images"
+  },
+  "image_info": {
+    "image_name": "02_images.jpg",
+    "image_path": "test_images\\02_images.jpg",
+    "processing_time_ms": 1313.0
+  },
+  "detection_results": {
+    "detection_success": true,
+    "num_plates_detected": 2,
+    "license_plates": [
+      {
+        "detection_id": 0,
+        "raw_ocr_text": "R 680L AJb",
+        "ocr_confidence": 44.5,
+        "parsed_plate": {
+          "full_plate_number": "R 6804 AJB",
+          "area_code": "R",
+          "area_name": "Banjarnegara",
+          "area_region": "Jawa Tengah",
+          "number": "6804",
+          "series": "AJB",
+          "registration_date": null
+        },
+        "validation": {
+          "format_valid": true,
+          "area_code_valid": true,
+          "number_valid": true,
+          "series_valid": true,
+          "date_valid": true,
+          "validation_message": "Valid Indonesian license plate format"
+        },
+        "bbox": {
+          "x1": 2212.0,
+          "y1": 918.0,
+          "x2": 2453.0,
+          "y2": 1136.0
+        },
+        "yolo_confidence": 0.5863447785377502
+      },
+      {
+        "detection_id": 1,
+        "raw_ocr_text": "k FHJ 5109 46.27 1 CEKnDD4 Mahd",
+        "ocr_confidence": 43.1,
+        "parsed_plate": {
+          "full_plate_number": "",
+          "area_code": "",
+          "area_name": "",
+          "area_region": "",
+          "number": "",
+          "series": "",
+          "registration_date": null
+        },
+        "validation": {
+          "format_valid": false,
+          "area_code_valid": false,
+          "number_valid": false,
+          "series_valid": false,
+          "date_valid": false,
+          "validation_message": "Invalid format"
+        },
+        "bbox": {
+          "x1": 1496.0,
+          "y1": 1150.0,
+          "x2": 2100.0,
+          "y2": 1613.0
+        },
+        "yolo_confidence": 0.10602764785289764
+      }
+    ]
+  },
+  "files_generated": {
+    "cropped_plates": [
+      "crop_det0.jpg",
+      "crop_det1.jpg"
+    ],
+    "annotated_image": "annotated_image.jpg",
+    "parsed_data": "plate_parsing.json"
+  }
+}
