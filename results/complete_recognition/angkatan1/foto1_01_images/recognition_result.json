@@ -1,0 +1,55 @@
+{
+  "angkatan_info": {
+    "angkatan_number": 1,
+    "foto_number": 1,
+    "angkatan_session": "angkatan1",
+    "foto_folder": "foto1_01_images"
+  },
+  "image_info": {
+    "image_name": "01_images.jpeg",
+    "image_path": "test_images\\01_images.jpeg",
+    "processing_time_ms": 1312.0
+  },
+  "detection_results": {
+    "detection_success": true,
+    "num_plates_detected": 1,
+    "license_plates": [
+      {
+        "detection_id": 0,
+        "raw_ocr_text": "8 1234 WLG",
+        "ocr_confidence": 64.6,
+        "parsed_plate": {
+          "full_plate_number": "",
+          "area_code": "",
+          "area_name": "",
+          "area_region": "",
+          "number": "",
+          "series": "",
+          "registration_date": null
+        },
+        "validation": {
+          "format_valid": false,
+          "area_code_valid": false,
+          "number_valid": false,
+          "series_valid": false,
+          "date_valid": false,
+          "validation_message": "Invalid format"
+        },
+        "bbox": {
+          "x1": 98.0,
+          "y1": 96.0,
+          "x2": 198.0,
+          "y2": 128.0
+        },
+        "yolo_confidence": 0.9047886729240417
+      }
+    ]
+  },
+  "files_generated": {
+    "cropped_plates": [
+      "crop_det0.jpg"
+    ],
+    "annotated_image": "annotated_image.jpg",
+    "parsed_data": "plate_parsing.json"
+  }
+}

@@ -1,24 +1,37 @@
 {
   "system_info": {
-    "last_updated": "2025-08-11T16:07:30.651906",
-    "total_angkatan_completed": 2,
-    "latest_angkatan": "angkatan4"
+    "last_updated": "2025-08-12T14:34:46.906731",
+    "total_angkatan_completed": 4,
+    "latest_angkatan": "angkatan3"
   },
   "cumulative_statistics": {
-    "total_images_processed": 14,
-    "total_plates_found": 3,
+    "total_images_processed": 44,
+    "total_plates_found": 0,
     "cumulative_success_rate": 0.0,
     "all_area_distribution": {
-      "Jakarta (B)": 7,
-      "Brebes (G)": 2
+      "Jakarta (B)": 9,
+      "Brebes (G)": 2,
+      "Banjarnegara (R)": 4
     }
   },
   "angkatan_history": [
     {
+      "angkatan": 1,
+      "date": "2025-08-12T11:03:59.023149",
+      "images": 11,
+      "plates": 0
+    },
+    {
       "angkatan": 2,
-      "date": "2025-08-11T14:45:41.563275",
-      "images": 3,
-      "plates": 3
+      "date": "2025-08-12T13:54:21.328977",
+      "images": 11,
+      "plates": 0
+    },
+    {
+      "angkatan": 3,
+      "date": "2025-08-12T14:34:22.249110",
+      "images": 11,
+      "plates": 0
     },
     {
       "angkatan": 4,

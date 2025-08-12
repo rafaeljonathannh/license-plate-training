@@ -1,0 +1,38 @@
+{
+  "plates": [
+    {
+      "detection_id": 0,
+      "raw_ocr_text": "8 1877 EUE 11,28",
+      "ocr_confidence": 74.3,
+      "parsed_plate": {
+        "full_plate_number": "",
+        "area_code": "",
+        "area_name": "",
+        "area_region": "",
+        "number": "",
+        "series": "",
+        "registration_date": null
+      },
+      "validation": {
+        "format_valid": false,
+        "area_code_valid": false,
+        "number_valid": false,
+        "series_valid": false,
+        "date_valid": false,
+        "validation_message": "Invalid format"
+      },
+      "bbox": {
+        "x1": 1391.0,
+        "y1": 1641.0,
+        "x2": 2234.0,
+        "y2": 1851.0
+      },
+      "yolo_confidence": 0.9164406061172485
+    }
+  ],
+  "processing_metadata": {
+    "yolo_model": "models/final/best_model.pt",
+    "ocr_engine": "EasyOCR + brightness_contrast",
+    "processing_time_ms": 2319.0
+  }
+}

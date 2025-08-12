@@ -1,0 +1,38 @@
+{
+  "plates": [
+    {
+      "detection_id": 0,
+      "raw_ocr_text": "R 680L AJb",
+      "ocr_confidence": 44.5,
+      "parsed_plate": {
+        "full_plate_number": "R 6804 AJB",
+        "area_code": "R",
+        "area_name": "Banjarnegara",
+        "area_region": "Jawa Tengah",
+        "number": "6804",
+        "series": "AJB",
+        "registration_date": null
+      },
+      "validation": {
+        "format_valid": true,
+        "area_code_valid": true,
+        "number_valid": true,
+        "series_valid": true,
+        "date_valid": true,
+        "validation_message": "Valid Indonesian license plate format"
+      },
+      "bbox": {
+        "x1": 2212.0,
+        "y1": 918.0,
+        "x2": 2453.0,
+        "y2": 1136.0
+      },
+      "yolo_confidence": 0.5863447785377502
+    }
+  ],
+  "processing_metadata": {
+    "yolo_model": "models/final/best_model.pt",
+    "ocr_engine": "EasyOCR + brightness_contrast",
+    "processing_time_ms": 928.0
+  }
+}

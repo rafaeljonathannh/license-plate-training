@@ -1,0 +1,8 @@
+{
+  "plates": [],
+  "processing_metadata": {
+    "yolo_model": "models/final/best_model.pt",
+    "ocr_engine": "EasyOCR + brightness_contrast",
+    "processing_time_ms": 609.0
+  }
+}

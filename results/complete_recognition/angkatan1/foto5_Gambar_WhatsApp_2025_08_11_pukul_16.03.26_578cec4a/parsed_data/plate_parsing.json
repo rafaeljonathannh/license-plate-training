@@ -1,0 +1,38 @@
+{
+  "plates": [
+    {
+      "detection_id": 0,
+      "raw_ocr_text": "35LL ENE 08.28",
+      "ocr_confidence": 86.3,
+      "parsed_plate": {
+        "full_plate_number": "",
+        "area_code": "",
+        "area_name": "",
+        "area_region": "",
+        "number": "",
+        "series": "",
+        "registration_date": null
+      },
+      "validation": {
+        "format_valid": false,
+        "area_code_valid": false,
+        "number_valid": false,
+        "series_valid": false,
+        "date_valid": false,
+        "validation_message": "Invalid format"
+      },
+      "bbox": {
+        "x1": 2107.0,
+        "y1": 1343.0,
+        "x2": 2813.0,
+        "y2": 1665.0
+      },
+      "yolo_confidence": 0.869376540184021
+    }
+  ],
+  "processing_metadata": {
+    "yolo_model": "models/final/best_model.pt",
+    "ocr_engine": "EasyOCR + brightness_contrast",
+    "processing_time_ms": 2564.0
+  }
+}
