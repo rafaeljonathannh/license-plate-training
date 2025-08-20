@@ -1,0 +1,29 @@
+{
+  "image_name": "08_images.jpg",
+  "processing_time_ms": 442.0,
+  "yolo_detections": 1,
+  "plates": [
+    {
+      "detection_id": 1,
+      "yolo_confidence": 0.901,
+      "bbox": {
+        "x1": 434,
+        "y1": 267,
+        "x2": 841,
+        "y2": 427
+      },
+      "raw_ocr_text": "B 1877 EUE 11.28",
+      "corrected_text": "B 1877 EUE",
+      "ocr_confidence": 50.3,
+      "parsed_result": {
+        "area_code": "B",
+        "number": "1877",
+        "series": "EUE",
+        "full_plate": "B 1877 EUE",
+        "valid": true,
+        "format": "Indonesian license plate",
+        "original_text": "B 1877 EUE"
+      }
+    }
+  ]
+}

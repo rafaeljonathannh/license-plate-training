@@ -1,0 +1,45 @@
+{
+  "image_name": "02_images.jpg",
+  "processing_time_ms": 2471.0,
+  "yolo_detections": 2,
+  "plates": [
+    {
+      "detection_id": 1,
+      "yolo_confidence": 0.586,
+      "bbox": {
+        "x1": 2212,
+        "y1": 918,
+        "x2": 2453,
+        "y2": 1136
+      },
+      "raw_ocr_text": "AJb 6804  22.29",
+      "corrected_text": "AJB 6804 22.29",
+      "ocr_confidence": 45.0,
+      "parsed_result": {
+        "valid": false,
+        "raw_text": "AJB 6804 22.29",
+        "cleaned_text": "AJB 6804",
+        "error": "Could not extract valid license plate format"
+      }
+    },
+    {
+      "detection_id": 2,
+      "yolo_confidence": 0.106,
+      "bbox": {
+        "x1": 1496,
+        "y1": 1150,
+        "x2": 2100,
+        "y2": 1613
+      },
+      "raw_ocr_text": "aw 5109* @61 ks} TTTQF",
+      "corrected_text": "AW 5109* @61",
+      "ocr_confidence": 19.9,
+      "parsed_result": {
+        "valid": false,
+        "raw_text": "AW 5109* @61",
+        "cleaned_text": "AW 5109 61",
+        "error": "Could not extract valid license plate format"
+      }
+    }
+  ]
+}

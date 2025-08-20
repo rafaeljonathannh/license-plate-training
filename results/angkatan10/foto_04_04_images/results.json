@@ -1,0 +1,29 @@
+{
+  "image_name": "04_images.jpg",
+  "processing_time_ms": 1693.0,
+  "yolo_detections": 1,
+  "plates": [
+    {
+      "detection_id": 1,
+      "yolo_confidence": 0.869,
+      "bbox": {
+        "x1": 2107,
+        "y1": 1343,
+        "x2": 2813,
+        "y2": 1665
+      },
+      "raw_ocr_text": "75LL FNE 8.28",
+      "corrected_text": "75LL FNE 8.28",
+      "ocr_confidence": 62.9,
+      "parsed_result": {
+        "area_code": "7",
+        "number": "5",
+        "series": "LL",
+        "full_plate": "7 5 LL",
+        "valid": true,
+        "format": "Indonesian license plate (extracted)",
+        "original_text": "75LL FNE 8.28"
+      }
+    }
+  ]
+}

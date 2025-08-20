@@ -1,0 +1,29 @@
+{
+  "image_name": "07_images.jpg",
+  "processing_time_ms": 1257.0,
+  "yolo_detections": 1,
+  "plates": [
+    {
+      "detection_id": 1,
+      "yolo_confidence": 0.603,
+      "bbox": {
+        "x1": 411,
+        "y1": 298,
+        "x2": 989,
+        "y2": 538
+      },
+      "raw_ocr_text": "6 2566 IF 02.7/",
+      "corrected_text": "G 2566 IF",
+      "ocr_confidence": 54.5,
+      "parsed_result": {
+        "area_code": "G",
+        "number": "2566",
+        "series": "IF",
+        "full_plate": "G 2566 IF",
+        "valid": true,
+        "format": "Indonesian license plate",
+        "original_text": "G 2566 IF"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "image_name": "01_images.jpeg",
+  "processing_time_ms": 572.0,
+  "yolo_detections": 1,
+  "plates": [
+    {
+      "detection_id": 1,
+      "yolo_confidence": 0.905,
+      "bbox": {
+        "x1": 98,
+        "y1": 96,
+        "x2": 198,
+        "y2": 128
+      },
+      "raw_ocr_text": "B 1234 WLG",
+      "corrected_text": "B 1234 WLG",
+      "ocr_confidence": 98.2,
+      "parsed_result": {
+        "area_code": "B",
+        "number": "1234",
+        "series": "WLG",
+        "full_plate": "B 1234 WLG",
+        "valid": true,
+        "format": "Indonesian license plate",
+        "original_text": "B 1234 WLG"
+      }
+    }
+  ]
+}

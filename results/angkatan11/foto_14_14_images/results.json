@@ -1,0 +1,29 @@
+{
+  "image_name": "14_images.jpg",
+  "processing_time_ms": 522.0,
+  "yolo_detections": 1,
+  "plates": [
+    {
+      "detection_id": 1,
+      "yolo_confidence": 0.86,
+      "bbox": {
+        "x1": 415,
+        "y1": 224,
+        "x2": 792,
+        "y2": 413
+      },
+      "raw_ocr_text": "IB J128 EUE 1877",
+      "corrected_text": "IB J128 EUE",
+      "ocr_confidence": 53.2,
+      "parsed_result": {
+        "area_code": "J1",
+        "number": "28",
+        "series": "EUE",
+        "full_plate": "J1 28 EUE",
+        "valid": true,
+        "format": "Indonesian license plate (extracted)",
+        "original_text": "IB J128 EUE"
+      }
+    }
+  ]
+}

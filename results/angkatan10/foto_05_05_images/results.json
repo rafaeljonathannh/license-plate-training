@@ -1,0 +1,26 @@
+{
+  "image_name": "05_images.jpg",
+  "processing_time_ms": 1499.0,
+  "yolo_detections": 1,
+  "plates": [
+    {
+      "detection_id": 1,
+      "yolo_confidence": 0.646,
+      "bbox": {
+        "x1": 1974,
+        "y1": 1122,
+        "x2": 2571,
+        "y2": 1453
+      },
+      "raw_ocr_text": "8 FHE 3544",
+      "corrected_text": "B FHE 3544",
+      "ocr_confidence": 50.2,
+      "parsed_result": {
+        "valid": false,
+        "raw_text": "B FHE 3544",
+        "cleaned_text": "B FHE 3544",
+        "error": "Could not extract valid license plate format"
+      }
+    }
+  ]
+}

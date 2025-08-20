@@ -1,0 +1,29 @@
+{
+  "image_name": "03_images.jpg",
+  "processing_time_ms": 3343.0,
+  "yolo_detections": 1,
+  "plates": [
+    {
+      "detection_id": 1,
+      "yolo_confidence": 0.896,
+      "bbox": {
+        "x1": 1529,
+        "y1": 691,
+        "x2": 2299,
+        "y2": 1486
+      },
+      "raw_ocr_text": "R N7t EIA 1128",
+      "corrected_text": "R N77 EIA",
+      "ocr_confidence": 23.7,
+      "parsed_result": {
+        "area_code": "N7",
+        "number": "7",
+        "series": "EIA",
+        "full_plate": "N7 7 EIA",
+        "valid": true,
+        "format": "Indonesian license plate (extracted)",
+        "original_text": "R N77 EIA"
+      }
+    }
+  ]
+}
